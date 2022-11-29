@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, HeaderViewDelegate {
     @IBOutlet weak var tableView: UITableView!
     
     var data = ["riri", "fifi", "loulou"]
@@ -26,14 +26,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return self.data.count
     }
     
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        var header = HeaderView.makeInstanceFromNib()
+        
+        header.backgroundColor = UIColor.red
+        
+        return header
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var cell = UITableViewCell()
-        
-        if(indexPath.row == 0){
-            cell = tableView.dequeueReusableCell(withIdentifier: "first", for: indexPath)
-        }else{
-            cell = tableView.dequeueReusableCell(withIdentifier: "second", for: indexPath)
-        }
+        cell = tableView.dequeueReusableCell(withIdentifier: "second", for: indexPath)
         
         cell.textLabel?.text = self.data[indexPath.row]
         
@@ -65,6 +68,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else{
             print(data[indexPath.row])
         }
+    }
+    
+    func didStartEditing() {
+        print("In did start editing from view controller")
+        //data = data.popFirst()
+        
     }
 }
 

@@ -18,6 +18,7 @@
 		EDD1A22B293614A40044D423 /* tableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A22A293614A40044D423 /* tableViewUITestsLaunchTests.swift */; };
 		EDD1A23829361CCF0044D423 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A23729361CCF0044D423 /* FirstTableViewCell.swift */; };
 		EDD1A23A29361CF00044D423 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A23929361CF00044D423 /* SecondTableViewCell.swift */; };
+		EDD1A23C2936430D0044D423 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD1A23B2936430D0044D423 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EDD1A22A293614A40044D423 /* tableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EDD1A23729361CCF0044D423 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		EDD1A23929361CF00044D423 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		EDD1A23B2936430D0044D423 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		EDD1A1FB293614A20044D423 = {
 			isa = PBXGroup;
 			children = (
+				EDD1A23B2936430D0044D423 /* HeaderView.xib */,
 				EDD1A206293614A20044D423 /* tableView */,
 				EDD1A21D293614A40044D423 /* tableViewTests */,
 				EDD1A227293614A40044D423 /* tableViewUITests */,
@@ -240,6 +243,7 @@
 				EDD1A214293614A30044D423 /* LaunchScreen.storyboard in Resources */,
 				EDD1A211293614A30044D423 /* Assets.xcassets in Resources */,
 				EDD1A20F293614A20044D423 /* Main.storyboard in Resources */,
+				EDD1A23C2936430D0044D423 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
