@@ -72,6 +72,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func didStartEditing() {
         print("In did start editing from view controller")
+        data = []
         //data = data.popFirst()
         
     }
