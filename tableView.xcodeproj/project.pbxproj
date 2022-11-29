@@ -16,6 +16,8 @@
 		EDD1A21F293614A40044D423 /* tableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A21E293614A40044D423 /* tableViewTests.swift */; };
 		EDD1A229293614A40044D423 /* tableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A228293614A40044D423 /* tableViewUITests.swift */; };
 		EDD1A22B293614A40044D423 /* tableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A22A293614A40044D423 /* tableViewUITestsLaunchTests.swift */; };
+		EDD1A23829361CCF0044D423 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A23729361CCF0044D423 /* FirstTableViewCell.swift */; };
+		EDD1A23A29361CF00044D423 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1A23929361CF00044D423 /* SecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EDD1A224293614A40044D423 /* tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD1A228293614A40044D423 /* tableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewUITests.swift; sourceTree = "<group>"; };
 		EDD1A22A293614A40044D423 /* tableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDD1A23729361CCF0044D423 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		EDD1A23929361CF00044D423 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				EDD1A210293614A30044D423 /* Assets.xcassets */,
 				EDD1A212293614A30044D423 /* LaunchScreen.storyboard */,
 				EDD1A215293614A40044D423 /* Info.plist */,
+				EDD1A23729361CCF0044D423 /* FirstTableViewCell.swift */,
+				EDD1A23929361CF00044D423 /* SecondTableViewCell.swift */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD1A20C293614A20044D423 /* ViewController.swift in Sources */,
+				EDD1A23A29361CF00044D423 /* SecondTableViewCell.swift in Sources */,
 				EDD1A208293614A20044D423 /* AppDelegate.swift in Sources */,
+				EDD1A23829361CCF0044D423 /* FirstTableViewCell.swift in Sources */,
 				EDD1A20A293614A20044D423 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
