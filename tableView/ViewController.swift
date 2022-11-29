@@ -28,6 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         var header = HeaderView.makeInstanceFromNib()
+        header.delegate = self
         
         header.backgroundColor = UIColor.red
         
@@ -73,8 +74,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func didStartEditing() {
         print("In did start editing from view controller")
         data = []
+        tableView.reloadData()
         //data = data.popFirst()
-        
     }
 }
 
